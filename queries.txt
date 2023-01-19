@@ -1,0 +1,5 @@
+Select * from Employee WHERE empsal in BETWEEN 20000 and 45000;
+Select * from Employee WHERE empname like "T%";
+Select * from Employee WHERE emploc="Chennai";
+SELECT * from Department WHERE deptloc="Chennai" and deptloc = "Hyderabad";
+SELECT * from Employee WHERE emploc NOT IN ("Chennai" ,"Hyderabad");\
